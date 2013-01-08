@@ -29,7 +29,7 @@ setup(
         'Flask-Mitten',
         'GitPython',
         'WTForms',
-        'peewee',
+        'peewee < 2.0.0',
     ],
     entry_points="""
     [paste.app_factory]
